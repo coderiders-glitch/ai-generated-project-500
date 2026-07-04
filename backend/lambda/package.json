@@ -1,0 +1,30 @@
+{
+  "name": "chat-handler-lambda",
+  "version": "1.0.0",
+  "description": "Serverless chat processing with OpenAI integration",
+  "main": "chat-handler.js",
+  "engines": {
+    "node": "18"
+  },
+  "scripts": {
+    "build": "echo 'No build step required for Lambda'",
+    "lint": "eslint *.js",
+    "test": "echo 'No tests specified'"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1490.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0"
+  },
+  "keywords": [
+    "lambda",
+    "serverless",
+    "chat",
+    "openai",
+    "aws"
+  ],
+  "author": "",
+  "license": "ISC"
+}
